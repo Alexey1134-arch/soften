@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Biography</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./style.e308ff8e.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/9251c5cb9c.js" crossorigin="anonymous"></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+			
+	</head>
+	<body>
+		<img id="me" src="./me.3b8c326f.jpg">
+		<div class="info">Овчинников А.В.</div>
+		<div class="info">Дата рождения:23.05.1999</div>
+		<p class="info">О себе: мне 22 года, с 2017 года учусь на факультете компьютерных наук по сециальности компьютерная безопасность. Проживаю в России, городе Омск. Имею Российское гражданство. Судимости: отсутствуют. Число приводов:0. Не женат</p>
+		<div>
+			<i class="fas fa-address-card"></i>
+			Мои контакты
+		</div>
+		<div>
+			<i class="fa fa-vk" aria-hidden="true" id="vk"></i>
+			<a target="_blank" href="https://vk.com/id87351830" class="links">Я в ВКонтакте</a>
+			<i class="fab fa-instagram" id="inst"></i>
+			<a target="_blank" href="https://www.instagram.com/ovch1337/" class="links">Я в Instagram</a>
+		</div>
+		<div>
+			<input type="text" id="pole"> 
+			<input type="submit" value="Send" id="button">
+		</div>
+			<script>$("#button").on('click', function (event) {
+  var value = $('#pole').val();
+  event.preventDefault();
+  console.log(value);
+});</script>
+	</body>
+</html>
